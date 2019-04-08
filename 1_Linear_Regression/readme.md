@@ -39,7 +39,7 @@ Follow this link https://www.coursera.org/learn/machine-learning/resources/P8Fp0
 
 ## License
 
-This project is licensed under the MIT License -
+This project is licensed under the MIT License
 
 ## Acknowledgments
 
