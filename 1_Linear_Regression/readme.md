@@ -5,7 +5,7 @@
 ## Getting Started
 - Install Octave 
 - Download Source Code 
-
+- Read ex1.pdf for more details on this project
 
 ### Installing
 Follow this link https://www.coursera.org/learn/machine-learning/resources/P8Fp0 to install Octave
