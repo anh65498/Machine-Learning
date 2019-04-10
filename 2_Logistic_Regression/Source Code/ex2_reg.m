@@ -1,21 +1,4 @@
-%% Machine Learning Online Class - Exercise 2: Logistic Regression
-%
-%  Instructions
-%  ------------
-%
-%  This file contains code that helps you get started on the second part
-%  of the exercise which covers regularization with logistic regression.
-%
-%  You will need to complete the following functions in this exericse:
-%
-%     sigmoid.m
-%     costFunction.m
-%     predict.m
-%     costFunctionReg.m
-%
-%  For this exercise, you will not need to change any code in this file,
-%  or any other files other than those mentioned above.
-%
+%% Exercise 2: Logistic Regression
 
 %% Initialization
 clear ; close all; clc
@@ -42,12 +25,11 @@ hold off;
 
 
 %% =========== Part 1: Regularized Logistic Regression ============
-%  In this part, you are given a dataset with data points that are not
-%  linearly separable. However, you would still like to use logistic
-%  regression to classify the data points.
+%  In this part, data points are not linearly separable (see plot).
+%  However, we can still use logistic regression to classify the data points.
 %
-%  To do so, you introduce more features to use -- in particular, you add
-%  polynomial features to our data matrix (similar to polynomial
+%  To do so, introduce more features to use -- in particular, add
+%  polynomial features to the data matrix (similar to polynomial
 %  regression).
 %
 
@@ -133,4 +115,3 @@ p = predict(theta, X);
 
 fprintf('Train Accuracy: %f\n', mean(double(p == y)) * 100);
 fprintf('Expected accuracy (with lambda = 1): 83.1 (approx)\n');
-
