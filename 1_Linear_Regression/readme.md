@@ -1,5 +1,5 @@
 # Linear Regression
-1. Predict Food Truct profit based on city's population (Univariate LR)
+1. Predict Food Truck profit based on city's population (Univariate LR)
 2. Predict House Price based on size and number of bedroom (Multivariate LR)
 
 ## Getting Started
