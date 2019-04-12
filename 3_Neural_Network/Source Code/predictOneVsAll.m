@@ -18,7 +18,7 @@ p = zeros(size(X, 1), 1);
 X = [ones(m, 1) X];
 
 h = sigmoid(X * all_theta');        % h is 5000x10 matrix
-[v p] = max(h, [], 2);              %v is value, p is index of max value of cost function/class
+[v p] = max(h, [], 2);              %v is value, p is index of max value of cost functione/class
 
 % =========================================================================
 

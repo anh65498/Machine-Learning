@@ -8,7 +8,7 @@ function [J, grad] = lrCostFunction(theta, X, y, lambda)
 % Initialize
 m = length(y);                   % number of training examples
 
-h = sigmoid(X * theta);               % hypothesis  (5 x 1 matrix)
+% hypothesis  (5 x 1 matrix)
 
 J = (-1/m) * (y' * log(h) + (1 - y') * log(1 - h) ) + (lambda/(2*m)) * sum( theta(2:end) .^ 2 );
 theta(1,1) = 0;
